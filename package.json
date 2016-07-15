@@ -1,6 +1,6 @@
 {
-  "name": "marked-id-no-operlap",
-  "version": "1.0.0",
+  "name": "marked-id-no-overlap",
+  "version": "1.0.1",
   "description": "markedをid重複しないようにしたやつ",
   "main": "index.js",
   "scripts": {
