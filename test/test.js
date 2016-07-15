@@ -24,9 +24,14 @@ marked(md_string, (err, htmlstring)=>{
 	global.window = document.defaultView;
 
 	const nodelist = document.querySelectorAll('*[id]');
-	if( nodelist.length===7 ){
-		console.log('success');
-	}else{
-		throw new Error(`failed: ${nodelist.length}`);
+	const memo = {}
+	for(node of Array.from(nodelist)){
+		const value = node.id;
+		if( memo[value] ){
+			throw new Error(`failed: ${value}`);
+		}else{
+			memo[value] = true;
+		}
 	}
+	console.log('success');
 });
