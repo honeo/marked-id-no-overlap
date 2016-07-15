@@ -1,0 +1,18 @@
+{
+  "name": "marked-id-no-operlap",
+  "version": "1.0.0",
+  "description": "markedをid重複しないようにしたやつ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "honeo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-stage-0": "^6.5.0",
+    "jsdom": "^9.4.1"
+  }
+}
