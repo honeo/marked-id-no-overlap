@@ -1,6 +1,6 @@
 {
   "name": "marked-id-no-overlap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "markedをid重複しないようにしたやつ",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-es2016": "^6.11.3",
     "babel-preset-stage-0": "^6.5.0",
+    "has-same-contents": "^1.1.1",
     "jsdom": "^9.4.1"
   },
   "dependencies": {

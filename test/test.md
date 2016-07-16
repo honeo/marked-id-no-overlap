@@ -8,16 +8,25 @@ hogehoge
 * fuga
 * fuga
 
-## piyo
+## PIYO
 ```js
 const piyo = 'piyopiyo';
 ```
+### piyo
+piyo.
 
-## piyo
-piyopiyo
+### piyo
+piyo.
 
-## ほげ
-ほげほげ。
+## S p A c E
+
+## ほげほげ
+
+### ほげ
+ほげ。
+
+### ほげ
+ほげ。
 
 ## ふが
 ふがふが。
